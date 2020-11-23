@@ -9,6 +9,6 @@
   "author": "Willen Silva",
   "license": "ISC",
   "dependencies": {
-    "xml-js": "^1.6.11"
+    "readline-sync": "^1.4.10"
   }
 }
