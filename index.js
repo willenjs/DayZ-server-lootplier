@@ -16,6 +16,7 @@ function getTypesAsJson(filePath) {
 function increaseLoot(types, multiplier) {
     types.types.type = types.types.type.map(function(item){
         item.nominal = item.nominal * multiplier;
+        item.min = Math.floor(item.nominal/2);
         return item;
     });
     return types;
